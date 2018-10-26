@@ -1,32 +1,43 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   <!----<link rel="stylesheet" type="text/css" media="screen" href="main.css" />-->
+    <!----<link rel="stylesheet" type="text/css" media="screen" href="main.css" />-->
     <!--BootStrap Link-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <!--Java Script Link-->
-   <!---script type="text/javascript" src="assets/javascript/game.js"></script>-->
+    <!---script type="text/javascript" src="assets/javascript/game.js"></script>-->
 </head>
+
 <body>
 
-<div class= "container">
-    <h1> The Psychic Game </h1>
-    <div>
-        <p> Please make a guess of the letter you are going to enter:</p>
+    <div class="container">
+        <h1> The Psychic Game </h1>
+        <p>Please click the button to validate your name and join the Psychic game</p>
+        <button onclick="getUserName()">ClickitNow </button>
+        <p id="userName"></p>
+        <div>
+            <p> Please make a guess of the letter you are going to enter:</p>
+        </div>
+        <div></div>
+        <h3>Scoreboard</h3>
+
+
+        <ul id="scoreboard">
+        </ul>
+
+        <ul id="Message">
+
+        </ul>
+
     </div>
- <div></div>   
-<h3>Scoreboard</h3>
-
-    <ul id="scoreboard">
-    
-    </ul>
-
-</div>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
+
 </html>
 </body>
 
